@@ -1,0 +1,10 @@
+websockets>=13
+pyautogui
+mss
+pillow
+zeroconf
+soundcard
+numpy
+pynput
+customtkinter
+pystray

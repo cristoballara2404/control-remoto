@@ -1,0 +1,4 @@
+{
+  "relay_url": "wss://relay.tudominio.example",
+  "relay_key": "LA_MISMA_CLAVE_QUE_RELAY_KEY_EN_EL_SERVIDOR"
+}

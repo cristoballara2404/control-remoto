@@ -1,0 +1,4 @@
+# /etc/caddy/Caddyfile  (reemplaza el dominio por el tuyo)
+relay.tudominio.example {
+    reverse_proxy 127.0.0.1:8080
+}

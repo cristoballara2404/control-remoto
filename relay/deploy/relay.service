@@ -1,0 +1,15 @@
+# /etc/systemd/system/relay.service
+[Unit]
+Description=Relay Control Remoto
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/relay
+EnvironmentFile=/etc/relay.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/ubuntu/relay/venv/bin/python relay.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

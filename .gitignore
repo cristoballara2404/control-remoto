@@ -1,0 +1,40 @@
+# --- Secretos y datos locales (NUNCA subir) ---
+data.json
+config.json
+settings.json
+*.env
+.env
+*.key
+*.pem
+*.jks
+*.keystore
+local.properties
+google-services.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Empaquetado del PC (PyInstaller / Inno Setup) ---
+build/
+dist/
+Output/
+*.spec
+desktop/icon.ico
+
+# --- Android / Gradle ---
+.gradle/
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+android/**/build/
+*.apk
+*.aab
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
